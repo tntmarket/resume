@@ -109,4 +109,5 @@ ul.bullet
       margin-top 0.5in
    .footer
       color #fff
+      bottom -80px
 
