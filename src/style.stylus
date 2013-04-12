@@ -1,7 +1,10 @@
+compressed()
+   line-height 1.4em
+
 date()
    color #666
-   line-height 1.2em
    font-size 12px
+   compressed()
    pull-right()
    line-break()
 
@@ -21,7 +24,10 @@ hr
    margin 5px 0px
 
 h1
-   font-size 35px
+   position relative
+   top 8px
+   font-size 53px
+   line-height 69px
 
 h2
    font-size 24px
@@ -45,6 +51,7 @@ body
    width 7.5in
    padding: 0.5in
    font-size 13px
+   position relative
 
 ul
    margin 0
@@ -55,7 +62,7 @@ ul
    color #666
    pull-right()
    line-break()
-   line-height 1.3em
+   compressed()
 
 .details
    font-size 12px
@@ -74,31 +81,32 @@ ul
 .line-break
    line-break()
 
-table.info-blocks
-   line-height: 1.5em
-   text-align center
-   width 100%
-   
-   & td
-      width 33.3%
-
-      & .info-header
-         font-weight bold 
-
 ul
-   list-style-type: circle;
-
-ul.no-bullet
    list-style-type none
+
+ul.bullet
+   list-style-type circle 
 
 .dot:after
    padding 0 15px 0 15px
    content '\2022'
    color #666
 
+.footer
+   line-height 14px
+   text-align right
+   position absolute
+   bottom 0px
+   right 0.5in
+
+   color #aaa
+   font-size 10px
 
 
 @media print
    .page-break-after
       page-break-after always
+      margin-top 0.5in
+   .footer
+      color #fff
 

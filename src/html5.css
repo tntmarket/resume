@@ -20,7 +20,7 @@ textarea {
 
 body {
     font-size: 1em;
-    line-height: 1.8;
+    line-height: 2.0;
 }
 
 /*
@@ -235,7 +235,7 @@ textarea {
 @media print {
     * {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        /*color: #000 !important; [> Black prints faster: h5bp.com/s <]*/
         box-shadow: none !important;
         text-shadow: none !important;
     }
@@ -283,7 +283,7 @@ textarea {
     }
 
     @page {
-        margin: 0.5cm;
+        margin: 0;
     }
 
     p,

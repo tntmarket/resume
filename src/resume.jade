@@ -6,116 +6,145 @@ html
       link(rel='stylesheet', href='normalize.css')
       link(rel='stylesheet', href='html5.css')
       link(rel='stylesheet', href='style.stylus.css')
+      link(rel='stylesheet', href='entypo.css')
       script(src='app.js')
 
    body
       .contact-info
-         | 201 Lester St. Unit 1204
+         i.icon-home
+         |  201 Lester St. Unit 1204
          | Waterloo, ON, N2L 3W4
          hr
-         | dave792321001730003212345@gmail.com &#149; (781) 558 - 3325
+         i.icon-mail
+         |  dave792321001730003212345@gmail.com&nbsp;
+         i.icon-mobile
+         |  (781) 558 - 3325
       h1 Dave Lu
       hr
 
-      h2 Skills
+      h2 
+         i.icon-tools
+         |  Skills
 
-      ul
+      ul.bullet
          li 
-            | Three years of programming
+            | Three years programming
             | Javascript, Java, C/C++, and Python through
-            | employment, coursework, and personal projects
+            | work, classes, and side projects
          li 
-            | Two years of experience collaborating with software
+            | Two years collaborating with software
             | teams using version control, code/design reviews,
             | and issue trackers
          li 
-            | One year front-end web development using 
-            | Ext JS, GWT, AngularJS, Ember.js, and Twitter Bootstrap 
-            | through work and personal projects
+            | One year front-end web development with 
+            | Ext JS, GWT, AngularJS, and Twitter Bootstrap in work and side
+            | projects
+         li 
+            | Half year programming with Linux environment and tools
          li 
             | Self-motivated quick learner with strong curiosity about new
-            | technologies 
+            | technologies
+         li 
+            | Constant desire for self improvement
 
-      h2 Work (NEED TO MENTION TECKS MORE)
+      h2 
+         i.icon-suitcase
+         |  Work
 
-      ul.no-bullet
+      ul
          li 
             .date
-               | Jan. 2013 - Present 
+               | Jan. 2013 - Present
                | Cambridge, MA
-            h5 Software Developer Intern, Oracle
+            h5 
+               i.icon-chart-pie 
+               |  Software Developer Intern, Oracle
             ul
                li 
-                  |  
-               li 
-                  |  
-               ul
+                  | Added a toolbar to a Business Intelligence
+                  | web application running on Liferay Portal
+               ul.bullet
                   li 
-                     |  
-         li 
+                     | Iterated on the toolbar based on feedback from
+                     | Product Management and UX
+                  li 
+                     | Extended an existing bookmark feature to be accessible
+                     | from the toolbar
+                  li 
+                     | Implemented part of the front-end for a data set 
+                     | selection feature in the toolbar
+                  li 
+                     | Designed, implemented, and maintained an internal 
+                     | API for extending the toolbar using Ext JS
             .date
                | Apr. 2012 - Aug. 2012
                | Santa Clara, CA
-            h5 Software Engineer, Arista Networks
+            h5 
+               i.icon-network
+               |  Software Engineer, Arista Networks
             ul
                li 
-                  | Fixed bugs and implemented features for 
-                  | Arista's router and switch operating system
-               li 
-                  | Implemented BGP Route Flap Dampening, an Internet 
-                  | Engineering Task Force (IETF) standard (RFC 2439) that
-                  | reduces load on routers
-               ul
+                  | Added BGP Route Flap Dampening (RFC 2439) to
+                  | Arista's router operating system
+               ul.bullet
                   li 
-                     | Wrote design documentation and actively engaged 
-                     | with peers in reviewing the design decisions through 
-                     | meetings and online collaboration tools
+                     | Iterated on the design through research on Cisco's 
+                     | Route Flap Dampening implementation and 
+                     | discussion with peers
                   li 
-                     | Implemented the solution by leveraging and modifying an 
-                     | existing Route Flap Dampening implementation
+                     | Modified GateD, an existing C based Route Flap Dampening
+                     | implementation and exposed the feature through 
+                     | a Python command line interface framework
                   li 
-                     | Wrote test cases/procedures and conducted tests 
+                     | Wrote and conducted tests using Python
                   li 
-                     | Documented changes to code, usage, and suggestions 
-                     | for future
+                     | Documented code changes, usage, and suggestions for
+                     | the future
          li 
             .date
                | Sept. 2011 - Dec. 2011
                | Toronto, ON
             h5 
-               | Software Developer, Rypple 
+               i.icon-users
+               |  Software Developer, Rypple 
                span.details (acquired by Salesforce.com Dec. 2011)
             ul
                li 
-                  | Fixed bugs and developed features for a Human 
-                  | Capital Management web application
-               ul
+                  | Collaborated with a team of less than 10 developers to add 
+                  | Objectives and Key Results, a goal setting framework 
+                  | to a Human Capital Management web application
+               ul.bullet
                   li 
                      | Estimated complexity, wrote test cases and 
-                     | defined acceptance criteria for new features
+                     | defined acceptance criteria for features presented
+                     | by Product Management and UX
                   li 
-                     | Designed and wrote code for new features and 
-                     | requirements
+                     | Implemented features with GWT, Hibernate, and Spring
                   li 
-                     | Refactored and documented existing code
+                     | Debugged, refactored, and documented existing code
 
                li Placed third in an internal weekend hackathon 
-               ul
+               ul.bullet
                   li 
-                     | Rapidly added a status update feature to an existing 
-                     | goal setting feature with another developer
+                     | Added a profile status feature to the 
+                     | existing goal setting feature by pairing
+                     | with another developer
 
 
       .page-break-after
 
-      h2 Side Projects 
+      h2 
+         i.icon-lamp
+         |  Side Projects 
 
-      ul.no-bullet
+      ul
          li 
             .date
                | Mar. 2012 - Present
-            h5 HTML5 Music Player 
-            ul
+            h5
+               i.icon-note-beamed
+               |  HTML5 Music Player 
+            ul.bullet
                li 
                   | Built a music player which runs in a web browser
                   | and directly plays local mp3s
@@ -127,8 +156,10 @@ html
             .date
                | Jan. 2012
                | University of Waterloo, ON
-            h5 Facebook hackathon
-            ul
+            h5 
+               i.icon-facebook-squared
+               |  Facebook hackathon
+            ul.bullet
                li 
                   | Worked in a team of three to code a quiz game in 24 hours 
                li 
@@ -139,8 +170,10 @@ html
          li
             .date
                | June 2007 - Jan. 2008
-            h5 Online game bot 
-            ul
+            h5 
+               i.icon-mouse
+               |  Online game bot 
+            ul.bullet
                li 
                   | Contributed to a project that automated
                   | repetitive tasks for the online game Runescape 
@@ -151,9 +184,11 @@ html
                   | Tracked changes and issues with Subversion
                   | and Mantis bug tracker
 
-      h2 Education 
+      h2 
+         i.icon-graduation-cap
+         |  Education 
 
-      ul.no-bullet
+      ul
          li 
             .date
                | Sept. 2010 - Present
@@ -163,25 +198,28 @@ html
                | University of Waterloo
             h6
                | Mechatronics Engineering,
-               | Cumulative Average 87%, rank 1 of 132 in 1st term
+               | Cumulative Average 87%, rank 1 of 132 in first term
 
-            ul.no-bullet
+            ul
                li Intro to Computer Structure and Real-time Systems
-               ul
-                  li Operating system concepts
-                  li Input/Output, Processes and Threads, Scheduling
+               ul.bullet
+                  li 
+                     | Computer architecture, concurrency, I/O, 
+                     | processes and threads, scheduling, memory management
 
                li Microprocessors and Digital Logic
-               ul
-                  li Assembly and C Programming, Programmable Logic Controllers
+               ul.bullet
+                  li Assembly and C programming, programmable logic controllers
 
-               li Algorithms and Data Structures (C Programming)
-               ul
+               li Algorithms and Data Structures
+               ul.bullet
                   li 
-                     | Memory management, time and space complexity
-                     | analysis and optimization
+                     | Time and space analysis of algorithms for lists,
+                     | stacks, queues, trees, graphs, hashes in C
 
-      h2 Awards and Scholarships 
+      h2 
+         i.icon-trophy
+         | Awards and Scholarships 
       ul
          li 
             .small-date Fall 2010 and Spring 2011
@@ -194,24 +232,23 @@ html
             .small-date July 2010
             | Alexander Rutherford Scholarship, Alberta Education
 
-      h2 Hobbies and Interests 
-      ul.no-bullet
+      h2 
+         i.icon-palette
+         | Hobbies and Interests 
+      ul
          li
-            | Popping Dance
+            | Popping dance
             span.dot
-            | Starcraft and League of Legends
+            | Starcraft
+            span.dot
+            | League of Legends
             span.dot
             | Flash animation
             span.dot
             | Fencing
             span.dot
             | Chess 
-
-
-
-
-
-
-
-
-
+      
+      .footer.line-break
+         | icons from www.entypo.com
+         | facebook icon trademarked by Facebook, Inc.
