@@ -242,7 +242,8 @@ textarea {
 
     a,
     a:visited {
-        text-decoration: underline;
+        text-decoration: none;
+        color: #222;
     }
 
     a[href]:after {

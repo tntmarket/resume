@@ -22,6 +22,9 @@ pull-right()
 light() 
    color #666
 
+a
+   font-style normal
+
 h1, h2, h3, h4, h5, h6
    font-weight normal
    margin 0
@@ -106,7 +109,7 @@ ul.bullet
    bottom 0px
    right 0.5in
 
-   color #aaa
+   color #ccc
    font-size 10px
 
 
@@ -115,5 +118,6 @@ ul.bullet
       page-break-after always
       margin-top 0.65in
    .footer
-      bottom -45px
+      bottom -10px
+      color #eee
 
