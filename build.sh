@@ -1,5 +1,7 @@
 #! /bin/sh
 
+mkdir -p build
+
 cd build
 ln -s ../src/app.js app.js
 ln -s ../src/html5.css html5.css
