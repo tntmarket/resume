@@ -48,7 +48,7 @@ h4
    font-size 18px
 
 h5 
-   font-size 16px
+   font-size 17px
 
 h6 
    font-size 14px
@@ -114,10 +114,13 @@ ul.bullet
 
 
 @media print
+   body
+      padding-top 0
+
    .page-break-after
       page-break-after always
-      margin-top 0.65in
+   
    .footer
-      bottom -10px
+      bottom 0px
       color #eee
 

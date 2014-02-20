@@ -1,13 +1,14 @@
-!!! strict
+doctype html
 html
    head
       meta(charset='utf-8')
       title Dave's Resume
       link(rel='stylesheet', href='normalize.css')
       link(rel='stylesheet', href='html5.css')
-      link(rel='stylesheet', href='style.stylus.css')
       link(rel='stylesheet', href='entypo.css')
-      script(src='app.js')
+      link(rel='stylesheet', href='socicon.css')
+
+      link(rel='stylesheet', href='style.stylus.css')
 
    body
       .contact-info
@@ -18,7 +19,7 @@ html
          i.icon-mail
          |  dave792321001730003212345@gmail.com&nbsp;&nbsp;
          i.icon-mobile
-         | (519) 504 - 4549 
+         | (587) 432 - 7624 
       h1 Dave Lu
       hr
 
@@ -28,28 +29,52 @@ html
 
       ul.bullet
          li 
-            | Three years programming
-            | Javascript, Java, C/C++, and Python through
+            | Three years programming with
+            | Javascript, Python, Java, and C/C++, through
             | work, classes, and side projects
          li 
             | Two years collaborating with software
             | teams using version control, code/design reviews,
             | and issue trackers
          li 
-            | One year front-end web development with 
-            | Ext JS, GWT, AngularJS, and Bootstrap in work and side
-            | projects
+            | Two years front-end web development with 
+            | AngularJS, Bootstrap, Ext JS, and GWT in work 
+            | and side projects
          li 
-            | Half year programming with Linux and vim
+            | Two years programming with Linux
          li 
-            | Self-motivated quick learner with strong curiosity about new
-            | technologies
+            | Self-motivated quick learner with strong curiosity 
+            | about new technologies
 
       h2 
          i.icon-suitcase
          |  Work
 
       ul
+         li 
+            .date
+               | Sep. 2013 - Dec. 2013 
+               | San Francisco, CA
+            h5 
+               i.socicon-yelp
+               |  Software Engineering Intern, Yelp 
+            ul.bullet
+               li 
+                  | Developed a service allowing business owners to search
+                  | owned locations in a team of 5 using Scrum
+               ul.bullet
+                  li 
+                     | Designed the ElasticSearch index schema storing businesses
+                     | and owners
+                  li 
+                     | Paired with teammate to design, code, and test the system 
+                     | keeping ElasticSearch up to date
+                  li 
+                     | Wrote a tutorial for the framework used to
+                     | synchronize the MySQL database with ElasticSearch
+                  li 
+                     | Built a web GUI interface for developing and debugging the
+                     | service using AngularJS and Pyramid
          li 
             .date
                | Jan. 2013 - Apr. 2013 
@@ -66,15 +91,15 @@ html
                      | Designed, coded, and maintained an internal 
                      | API for extending the toolbar using Ext JS
                   li 
-                     | Added a data source summary feature to the toolbar
-                     | using the data provisioning service and MVC
+                     | Added a data source summary to the toolbar
+                     | using the data provisioning service
                   li 
-                     | Updated a bookmark feature to be 
-                     | accessible from the toolbar based on feedback from
+                     | Added a bookmarking feature to the toolbar based on feedback from
                      | product management and UX
                   li 
                      | Tested front-end interaction with Watir WebDriver and
                      | back-end services with JUnit
+         li
             .date
                | Apr. 2012 - Aug. 2012
                | Santa Clara, CA
@@ -90,9 +115,8 @@ html
                      | Designed the user interface by researching Cisco IOS
                      | Route Flap Dampening and discussing with peers
                   li 
-                     | Modified GateD, a C based routing daemon 
-                     | and exposed the feature through a Python command 
-                     | line interface framework
+                     | Modified the GateD routing daemon 
+                     | and exposed the feature using a Python CLI framework 
                   li 
                      | Tested using Python by verifying command line output 
                      | and asserting the routing daemon's state
@@ -108,49 +132,26 @@ html
                |  Software Developer, Rypple (now Salesforce Work)
             ul.bullet
                li 
-                  | Collaborated with a small team using agile methods to add 
-                  | Objectives and Key Results, 
-                  br
-                  | a goal setting framework 
-                  | to a Human Capital Management web application
+                  | Worked in a team of ~15 using agile methods to add 
+                  | Objectives and Key Results to a Human Capital Management web application
                ul.bullet
                   li 
-                     | Estimated complexity, wrote test cases and 
-                     | defined acceptance criteria for features presented
-                     | by Product Management and UX
+                     | Estimated and defined acceptance criteria 
+                     | for features presented by Product Management and UX
                   li 
                      | Implemented features with GWT, Hibernate, and Spring
                   li 
-                     | Tested with JUnit, using Model-View-Presenter
-                     | to unit test the front-end
+                     | Tested with JUnit, unit testing the front-end with 
+                     | Model-View-Presenter
 
-               li Placed third in an internal weekend hackathon 
-               ul.bullet
-                  li 
-                     | Added a profile status feature to the 
-                     | goal setting framework with another developer
-         li 
-            .date
-               | Jan. 2011 - Apr. 2011
-               | Ottawa, ON
-            h5 
-               i.icon-lifebuoy
-               |  Web Developer, Fisheries and Oceans Canada 
-            ul.bullet
                li 
-                  | Added space and time filtering tools to an
-                  | ocean data explorer Google Maps application
-               li 
-                  | Wrote a text to NetCDF converter for ocean data
-                  | using the Unidata Java API
-               li 
-                  | Setup a PostgreSQL database for a drifting buoy
-                  | data explorer built on ESRI ArcGIS
+                  | Placed third in a hackathon for
+                  | linking profile statuses to actions in 
+                  | Objectives and Key Results
 
+      .page-break-after   
 
-      .page-break-after
-
-      h2 
+      h2
          i.icon-lamp
          |  Side Projects 
       ul
@@ -159,8 +160,7 @@ html
                | Mar. 2012 - Present
             h5
                i.icon-note-beamed 
-                  a(href='http://sound.aws.af.cm/') 
-                     |  HTML5 Music Player
+               |  HTML5 Music Player
             ul.bullet
                li 
                   | Built a web based music player which 
@@ -175,7 +175,7 @@ html
                | Waterloo, ON
             h5 
                i.icon-facebook-squared
-               |  Facebook hackathon
+               |  Facebook Hackathon
             ul.bullet
                li 
                   | Worked in a team of three to code a quiz game in 24 hours 
@@ -189,7 +189,7 @@ html
                | Jun. 2007 - Jan. 2008
             h5 
                i.icon-mouse
-               |  Online game bot 
+               |  Online Game Bot 
             ul.bullet
                li 
                   | Contributed to a project that automated
@@ -216,7 +216,7 @@ html
 
             span 
                | Mechatronics Engineering,
-               | Cumulative Average 87%, rank 1/132 in first term
+               | Cumulative Average 85%, rank 1 out of 132 in first term
 
             ul.bullet
                li 
@@ -286,7 +286,9 @@ html
             | Chess 
       
       .footer
-         | icons from www.entypo.com
+         | icons from entypo and socicon
          br
          i.icon-facebook-squared
-         |  trademark of Facebook
+         |  and 
+         i.socicon-yelp
+         | are trademarks of Facebook and Yelp

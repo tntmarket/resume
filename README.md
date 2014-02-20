@@ -1,4 +1,4 @@
-Dave's Resumes
+Dave's Resume
 ==============
 
 Instructions
@@ -10,4 +10,4 @@ to start watching source files and recompile on change:
 
 to serve the file on localhost:8080:
 
-    ./fileServer.js 
+    ./static.sh 
